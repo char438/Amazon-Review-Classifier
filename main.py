@@ -58,7 +58,7 @@ def main():
     print("The predicted score is:", new_prediction[0])
 
     loop = input("Would you like another prediction? Y/N \n")
-    if loop == 'Y':
+    if loop.upper() == 'Y':
         main()
 
 if __name__ == '__main__':
