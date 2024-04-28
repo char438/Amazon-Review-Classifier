@@ -11,7 +11,8 @@ To set up this project, you'll need Python 3.6 or higher and the following Pytho
 
 To install the dependencies, use the following command:
 
-`bash
+`bash:
+
 pip install pandas numpy transformers scipy tqdm scikit-learn
 
 
