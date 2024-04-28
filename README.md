@@ -19,10 +19,12 @@ pip install pandas numpy transformers scipy tqdm scikit-learn
 To use this project, run the main.py script. It will prompt you to enter a review or text input and will return the predicted star rating based on the sentiment analysis results.
 Example:
 
-`bash
+`bash:
+
 python main.py
 
-`text
+`text:
+
 Give a review you'd like to be predicted:
 The product quality is excellent but the delivery was delayed.
 
