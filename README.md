@@ -28,7 +28,7 @@ python main.py
 Give a review you'd like to be predicted:
 The product quality is excellent but the delivery was delayed.
 
-The predicted score for 'The product quality is excellent but the delivery was delayed.' is: 4
+The predicted score is: 4
 
 
 
