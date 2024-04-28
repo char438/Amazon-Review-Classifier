@@ -15,7 +15,7 @@ To install the dependencies, use the following command:
 pip install pandas numpy transformers scipy tqdm scikit-learn
 
 
-## Usage:
+## Usage
 To use this project, run the main.py script. It will prompt you to enter a review or text input and will return the predicted star rating based on the sentiment analysis results.
 Example:
 
