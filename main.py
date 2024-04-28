@@ -9,11 +9,10 @@ def main():
     new_input = input("Give a review you'd like to be predicted. \n")
 
     df = pd.DataFrame({
-        'Text': [new_input]  # Use the captured input
+        'Text': [new_input] 
     })
 
 
-    #transfer learning from twitter -> amazon reviews
     MODEL = f"cardiffnlp/twitter-roberta-base-sentiment"
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
     model = AutoModelForSequenceClassification.from_pretrained(MODEL)
@@ -45,7 +44,7 @@ def main():
     #Trained Model
     from sklearn.model_selection import train_test_split
     from sklearn.ensemble import RandomForestClassifier
-    df = pd.read_csv('C:/Users/GGPC/Desktop/Python Sentiment Analysis/input/Results.csv')
+    df = pd.read_csv('input/Results.csv')
 
     X = df.drop('Score',axis='columns')
     y = df.Score

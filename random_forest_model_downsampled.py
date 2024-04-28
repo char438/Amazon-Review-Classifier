@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import resample
 
 
-df = pd.read_csv('C:/Users/GGPC/Desktop/Python Sentiment Analysis/input/Results.csv')
+df = pd.read_csv('input/Results.csv')
 print (df.head())
 
 

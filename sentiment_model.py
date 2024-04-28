@@ -6,7 +6,7 @@ from scipy.special import softmax
 from tqdm import tqdm
 
 
-df = pd.read_csv('C:/Users/GGPC/Desktop/Python Sentiment Analysis/input/Reviews.csv')
+df = pd.read_csv('input/Results.csv')
 df = df.head(10000)
 
 MODEL = f"cardiffnlp/twitter-roberta-base-sentiment"
@@ -40,4 +40,4 @@ results_df = pd.DataFrame(res).T
 results_df = results_df.reset_index().rename(columns={'index': 'Id'})
 results_df = results_df.merge(df, how='left')
 
-results_df.to_csv('C:/Users/GGPC/Desktop/Python Sentiment Analysis/output/Results.csv', index=False)
+results_df.to_csv('output/Results.csv', index=False)
