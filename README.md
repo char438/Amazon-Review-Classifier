@@ -11,22 +11,25 @@ To set up this project, you'll need Python 3.6 or higher and the following Pytho
 
 To install the dependencies, use the following command:
 
-`bash
+`bash:
+
 pip install pandas numpy transformers scipy tqdm scikit-learn
 
 
-## Usage:
+## Usage
 To use this project, run the main.py script. It will prompt you to enter a review or text input and will return the predicted star rating based on the sentiment analysis results.
 Example:
 
-`bash
+`bash:
+
 python main.py
 
-`text
+`text:
+
 Give a review you'd like to be predicted:
 The product quality is excellent but the delivery was delayed.
 
-The predicted score for 'The product quality is excellent but the delivery was delayed.' is: 4
+The predicted score is: 4
 
 
 
